@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 20%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+img {
+  display: flex;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+}
+
+h4 {
+  color: hsl(75, 94%, 57%);
+  font-size: 18px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.quote {
+  color: white;
+  text-align: center;
+}
+
+button {
+  background-color: hsl(0, 0%, 12%);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 380px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  font-weight: bold;
+}
+
+button p {
+  font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+
+  .container {
+    width: auto;
+    margin: 100px;
+    padding: 10px;
+    height: auto;
+  }
+
+  img {
+    display: flex;
+    border-radius: 50%;
+  }
+
+  button {
+    width: 280px;
+  }
+}
